@@ -33,7 +33,6 @@ class TrackVisit implements ShouldQueue
             'landing_params'    => $this->attributionData['landing_params'],
             'referrer_domain'   => $this->attributionData['referrer']['referrer_domain'],
             'referrer_url'      => $this->attributionData['referrer']['referrer_url'],
-            'gclid'             => $this->attributionData['gclid'],
             'utm_source'        => $this->attributionData['utm']['utm_source'],
             'utm_campaign'      => $this->attributionData['utm']['utm_campaign'],
             'utm_medium'        => $this->attributionData['utm']['utm_medium'],

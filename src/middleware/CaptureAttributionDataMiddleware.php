@@ -110,7 +110,6 @@ class CaptureAttributionDataMiddleware
         $attributionData['landing_page']    = $this->captureLandingPage();
         $attributionData['landing_params']  = $this->captureLandingParams();
         $attributionData['referrer']        = $this->captureReferrer();
-        $attributionData['gclid']           = $this->captureGCLID();
         $attributionData['utm']             = $this->captureUTM();
         $attributionData['referral']        = $this->captureReferral();
         $attributionData['custom']          = $this->getCustomParameter();
